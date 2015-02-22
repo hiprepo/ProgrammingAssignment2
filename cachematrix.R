@@ -39,7 +39,6 @@ cacheSolve <- function(x, ...) {
 
 	## if cached, returns it right away without calling solve()
 	if (!is.null(i)) {
-		message("getting cached data")
 		return(i)
 	}
 
